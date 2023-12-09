@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI</title>
+    <link rel="stylesheet" href="../Css/BMI.css" />
+  </head>
+  <body>
+    <header>
+      <span class="logo" href="../index.html">
+        <img
+          class="logo-"
+          src="../logo/Skyegym.svg"
+          alt="logo"
+          href="home.html"
+        />
+      </span>
+
+      <div id="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a class="active" href="./BMI.html">BMI</a></li>
+          <li><a href="./workout.html">Workout</a></li>
+          <!-- <li><a href="./food.html">Food</a></li> -->
+          <li><a href="./About us.html">About us</a></li>
+        </ul>
+      </nav>
+
+      <span><button class="btn-join" id="btn-join">Join us</button> </span>
+    </header>
+
+    <!-- Log In -->
+
+    <!-- <div class="model">
+      <button class="icon-button close-button">
+        <div>&times;</div>
+      </button>
+      <div class="container" id="container">
+        <div class="form-container sign-up-container">
+          <form action="connect.php" method="post">
+            <h1>Create Account</h1>
+            <div class="social-container">
+              <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social"
+                ><i class="fab fa-google-plus-g"></i
+              ></a>
+            </div>
+            <span>or use your email for registration</span>
+            <input type="text" placeholder="Name" name="username" />
+            <input type="email" placeholder="Email" name="email" />
+            <input type="password" placeholder="Password" name="password" />
+            <button name="submit">Sign Up</button>
+          </form>
+        </div>
+        <div class="form-container sign-in-container">
+          <form action="login.php" method="post">
+            <h1>Sign in</h1>
+            <div class="social-container">
+              <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social"
+                ><i class="fab fa-google-plus-g"></i
+              ></a>
+            </div>
+            <span>or use your account</span>
+            <input type="email" placeholder="Email" name="email" />
+            <input type="password" placeholder="Password" name="password" />
+            <a href="#">Forgot your password?</a>
+            <button>Sign In</button>
+          </form>
+        </div>
+        <div class="overlay-container">
+          <div class="overlay">
+            <div class="overlay-panel overlay-left">
+              <h1>Welcome Back!</h1>
+              <p>
+                To keep connected with us please login with your personal info
+              </p>
+              <button class="ghost" id="signIn">Sign In</button>
+            </div>
+            <div class="overlay-panel overlay-right">
+              <lottie-player
+                src="https://assets5.lottiefiles.com/packages/lf20_p1ftxhgu.json"
+                background="transparent"
+                speed="1"
+                style="width: 100px; height: 100px"
+                loop
+                autoplay
+              ></lottie-player>
+              <h1>Hello, Friend!</h1>
+              <p>Enter your personal details and start journey with us</p>
+              <button class="ghost" id="signUp">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="BMI">
+      <div class="measures">
+        <div class="gender">
+          <h2 class="title2">Gender</h2>
+          <div class="male active"><span>&#9794;</span></div>
+          <div class="female"><span>&#9792;</span></div>
+        </div>
+        <div class="height">
+          <h2 class="title2">Height (cm)</h2>
+          <div id="number"></div>
+          <div class="rules"></div>
+          <input type="range" id="height" min="140" max="200" />
+        </div>
+        <div class="weight">
+          <h2 class="title2">Weight</h2>
+          <div class="container">
+            <div class="circular-progress">
+              <div class="value-container" id="value-container"></div>
+            </div>
+          </div>
+          <input type="range" min="40" max="150" value="70" id="weight" />
+        </div>
+      </div>
+      <div class="result">
+        <div class="title">
+          <h1>Body Mass Index (BMI)</h1>
+        </div>
+        <div class="bmi-result">
+          <div class="bmi-num">
+            <p id="bmi-num"></p>
+          </div>
+          <div class="bmi-txt">
+            <p id="bmi-txt">You're Healthy</p>
+          </div>
+        </div>
+        <div class="box-bar">
+          <div class="box-circle">
+            <div class="circle1">
+              <div class="circle" id="circle1"></div>
+            </div>
+            <div class="circle2">
+              <div class="circle" id="circle2"></div>
+            </div>
+            <div class="circle3">
+              <div class="circle" id="circle3"></div>
+            </div>
+            <div class="circle4">
+              <div class="circle" id="circle4"></div>
+            </div>
+          </div>
+          <div class="bar"></div>
+          <div class="txts">
+            <span>15</span>
+            <span>18.5</span>
+            <span>25</span>
+            <span>30</span>
+            <span>40</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="../Js/BMI.js"></script>
+    <script src="anime.min.js"></script>
+  </body>
+</html>

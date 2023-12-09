@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About us</title>
+    <link rel="stylesheet" href="../Css/aboutStyle.css" />
+  </head>
+  <body>
+    <header>
+      <span class="logo">
+        <a href="../index.html">
+          <img class="logo-" src="../logo/Skyegym.svg" alt="logo" />
+        </a>
+      </span>
+
+      <div id="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="./BMI.html">BMI</a></li>
+          <li><a href="./workout.html">Workout</a></li>
+          <!-- <li><a href="./food.html">Food</a></li> -->
+          <li><a class="active" href="./About us.html">About us</a></li>
+        </ul>
+      </nav>
+
+      <span><button class="btn-join" id="btn-join">Join us</button> </span>
+    </header>
+
+    <!-- Log In -->
+
+    <div class="model">
+      <button class="icon-button close-button">
+        <div>&times;</div>
+      </button>
+      <div class="container" id="container">
+        <div class="form-container sign-up-container">
+          <form action="connect.php" method="post">
+            <h1>Create Account</h1>
+            <div class="social-container">
+              <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social"
+                ><i class="fab fa-google-plus-g"></i
+              ></a>
+            </div>
+            <span>or use your email for registration</span>
+            <input type="text" placeholder="Name" name="username" />
+            <input type="email" placeholder="Email" name="email" />
+            <input type="password" placeholder="Password" name="password" />
+            <button name="submit">Sign Up</button>
+          </form>
+        </div>
+        <div class="form-container sign-in-container">
+          <form action="login.php" method="post">
+            <h1>Sign in</h1>
+            <div class="social-container">
+              <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social"
+                ><i class="fab fa-google-plus-g"></i
+              ></a>
+            </div>
+            <span>or use your account</span>
+            <input type="email" placeholder="Email" name="email" />
+            <input type="password" placeholder="Password" name="password" />
+            <a href="#">Forgot your password?</a>
+            <button>Sign In</button>
+          </form>
+        </div>
+        <div class="overlay-container">
+          <div class="overlay">
+            <div class="overlay-panel overlay-left">
+              <h1>Welcome Back!</h1>
+              <p>
+                To keep connected with us please login with your personal info
+              </p>
+              <button class="ghost" id="signIn">Sign In</button>
+            </div>
+            <div class="overlay-panel overlay-right">
+              <lottie-player
+                src="https://assets5.lottiefiles.com/packages/lf20_p1ftxhgu.json"
+                background="transparent"
+                speed="1"
+                style="width: 100px; height: 100px"
+                loop
+                autoplay
+              ></lottie-player>
+              <h1>Hello, Friend!</h1>
+              <p>Enter your personal details and start journey with us</p>
+              <button class="ghost" id="signUp">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="about" id="about">
+      <div class="left">
+        <div class="image">
+          <span class="box1"></span>
+          <img src="../Images/Abuot us(edited).png" alt="" />
+          <span class="box2"></span>
+        </div>
+      </div>
+
+      <div class="content">
+        <span>About us</span>
+        <h3 class="title1">It's Not Always Easy But</h3>
+        <h3 class="title2">It Will Always Be Worth It</h3>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati
+          consectetur unde doloribus ratione officia, ducimus accusantium quae
+          aperiam, accusamus harum non eligendi itaque asperiores eum in
+          reprehenderit rem fugiat expedita.
+        </p>
+        <div class="box-container">
+          <div class="box">
+            <h3><i class="fa-solid fa-check"></i>Body & Mind</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum, ducimus.
+            </p>
+          </div>
+          <div class="box">
+            <h3><i class="fas fa-check"></i>Healthy Life</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum, ducimus.
+            </p>
+          </div>
+          <div class="box">
+            <h3><i class="fas fa-check"></i>Strategies</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum, ducimus.
+            </p>
+          </div>
+          <div class="box">
+            <h3><i class="fas fa-check"></i>Workout</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatum, ducimus.
+            </p>
+          </div>
+        </div>
+        <span><button class="btn--" id="btn-join">Join Us!</button> </span>
+      </div>
+    </section>
+
+    <section class="our">
+      <div class="our-container">
+        <div class="our-value">
+          <div class="t1">Our</div>
+          <div class="t2">Values</div>
+          <div class="values">
+            <div class="value">
+              <img src="../Images/deal.png" alt="" />
+              <div class="vs-">
+                <h3><i></i>Integrity</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatum, ducimus.
+                </p>
+              </div>
+            </div>
+            <div class="value">
+              <img src="../Images/handshake.png" alt="" />
+              <div class="vs-">
+                <h3><i></i>Commitment</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatum, ducimus.
+                </p>
+              </div>
+            </div>
+            <div class="value">
+              <img src="../Images/passionate.png" alt="" />
+              <div class="vs-">
+                <h3><i></i>Passion</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatum, ducimus.
+                </p>
+              </div>
+            </div>
+            <div class="value">
+              <img src="../Images/knowledge.png" alt="" />
+              <div class="vs-">
+                <h3><i></i>Learning</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatum, ducimus.
+                </p>
+              </div>
+            </div>
+            <div class="value">
+              <img src="../Images/support.png" alt="" />
+              <div class="vs-">
+                <h3><i></i>Team-work</h3>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptatum, ducimus.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="goal">
+          <div class="t1">Our</div>
+          <div class="t2">Goal Statement</div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            quibusdam culpa dignissimos magnam dolore vero inventore ipsam sequi
+            in quaerat, autem exercitationem omnis non esse nihil aspernatur
+            fuga iste reiciendis.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="executive">
+      <p class="ex">Executive</p>
+
+      <div class="makers">
+        <div class="adham">
+          <img
+            class="me-bw"
+            src="../Images/photo_2022-12-04_12-52-01tra22.png"
+            alt=""
+          />
+          <img class="me" src="../Images/photo_2022-12-04_12-52-01tra11.png" alt="" />
+          <div class="grad"></div>
+          <img class="sign" src="../Images/DuelistClassSymbol.webp" alt="" />
+          <div class="img-txt">
+            <h3>Adham Nasser</h3>
+          </div>
+        </div>
+
+      </div>
+    </section>
+    <div class="contact">
+      <div class="contact-adham">
+        <ul class="ca">
+          <li>
+            <a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/7e3cf7f858.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script defer src="../Js/script.js"></script>
+  </body>
+</html>

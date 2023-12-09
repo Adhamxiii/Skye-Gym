@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Workout</title>
+    <link rel="stylesheet" href="../Css/workout.css" />
+  </head>
+  <body>
+    <header>
+      <span class="logo" href="../index.html">
+        <img
+          class="logo-"
+          src="../logo/Skyegym.svg"
+          alt="logo"
+          href="../index.html"
+        />
+      </span>
+
+      <div id="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a class="" href="index.html">Home</a></li>
+          <li><a class="" href="./BMI.html">BMI</a></li>
+          <li><a class="active" href="./workout.html">Workout</a></li>
+          <!-- <li><a class="" href="./food.html">Food</a></li> -->
+          <li><a class="" href="./About us.html">About us</a></li>
+        </ul>
+      </nav>
+
+      <span><button class="btn-join" id="btn-join">Join us</button> </span>
+    </header>
+
+    <!-- Log In -->
+
+    <!-- <div class="model">
+      <button class="icon-button close-button">
+        <div>&times;</div>
+      </button>
+      <div class="container" id="container">
+        <div class="form-container sign-up-container">
+          <form action="connect.php" method="post">
+            <h1>Create Account</h1>
+            <div class="social-container">
+              <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social"
+                ><i class="fab fa-google-plus-g"></i
+              ></a>
+            </div>
+            <span>or use your email for registration</span>
+            <input type="text" placeholder="Name" name="username" />
+            <input type="email" placeholder="Email" name="email" />
+            <input type="password" placeholder="Password" name="password" />
+            <button name="submit">Sign Up</button>
+          </form>
+        </div>
+        <div class="form-container sign-in-container">
+          <form action="login.php" method="post">
+            <h1>Sign in</h1>
+            <div class="social-container">
+              <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social"
+                ><i class="fab fa-google-plus-g"></i
+              ></a>
+            </div>
+            <span>or use your account</span>
+            <input type="email" placeholder="Email" name="email" />
+            <input type="password" placeholder="Password" name="password" />
+            <a href="#">Forgot your password?</a>
+            <button>Sign In</button>
+          </form>
+        </div>
+        <div class="overlay-container">
+          <div class="overlay">
+            <div class="overlay-panel overlay-left">
+              <h1>Welcome Back!</h1>
+              <p>
+                To keep connected with us please login with your personal info
+              </p>
+              <button class="ghost" id="signIn">Sign In</button>
+            </div>
+            <div class="overlay-panel overlay-right">
+              <lottie-player
+                src="https://assets5.lottiefiles.com/packages/lf20_p1ftxhgu.json"
+                background="transparent"
+                speed="1"
+                style="width: 100px; height: 100px"
+                loop
+                autoplay
+              ></lottie-player>
+              <h1>Hello, Friend!</h1>
+              <p>Enter your personal details and start journey with us</p>
+              <button class="ghost" id="signUp">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <h2 class="heading"><span>CHOOSE YOUR ONLINE WORKOUT</span></h2>
+    <section class="box-container">
+      <div class="row1">
+        <div class="box">
+          <div class="cont">
+            <img
+              src="../Images/workout/TRX/11062b_e56463b1fb4e472cb413da6c1605dedc_mv2.webp"
+              alt=""
+            />
+            <div class="overlay">
+              <a href="#" onclick="togglePopup1()">
+                <span class="num">1</span>
+                <span class="txt">TRX WORKOUT</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="cont">
+            <img
+              src="../Images/workout/Posture correction/patrick-malleret-L5o5ainVP_I-unsplash.jpg"
+              alt=""
+            />
+            <div class="overlay">
+              <a href="#">
+                <span class="num">2</span>
+                <span class="txt">POSTURE CORRECTION</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="cont">
+            <img
+              src="../Images/workout/Muscle tone/pexels-victor-freitas-703012.jpg"
+              alt=""
+            />
+            <div class="overlay">
+              <a href="#">
+                <span class="num">3</span>
+                <span class="txt">MUSCLE TONE</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row2">
+        <div class="box">
+          <div class="cont">
+            <img
+              src="../Images/workout/Loss wieght/[Downloader.la]-638b8f88f2965.jpg"
+              alt=""
+            />
+            <div class="overlay">
+              <a href="#">
+                <span class="num">4</span>
+                <span class="txt">WEIGHT LOSS</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="cont">
+            <img
+              src="../Images/workout/Cardio fitness/portrait-young-sports-couple-making-cardio-workout-modern-gym.jpg"
+              alt=""
+            />
+            <div class="overlay">
+              <a href="#">
+                <span class="num">5</span>
+                <span class="txt">CARDIO FITNESS</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <div class="cont">
+            <img
+              src="../Images/workout/Core/portrait-young-pretty-woman-sportswear-fitness-training-workout-stretching-push-up-exercise-floor-modern-gym-smile.jpg"
+              alt=""
+            />
+            <div class="overlay">
+              <a href="#">
+                <span class="num">6</span>
+                <span class="txt">CORE STRENGTH</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Popup -->
+      <div class="popup" id="popup">
+        <div class="overlay"></div>
+        <div class="trx">
+          <div class="close-btn" onclick="togglePopup1()">&times;</div>
+          <h2>TRX CLASS</h2>
+          <div class="details">
+            <span>45 min</span>
+            <span>99$</span>
+            <span>Online</span>
+          </div>
+          <hr />
+          <h3>Service Description</h3>
+          <p>
+            TRX is a form of suspension training that uses body weight exercises
+            to develop strength, balance, flexibility and core stability
+            simultaneously. It requires the use of the TRX Suspension Trainer, a
+            performance training tool that leverages gravity and the user’s body
+            weight to complete the exercises. Our classes will move you. Our
+            instructors will inspire you. Modifications are always welcomed in
+            any class.
+          </p>
+          <div class="imgs">
+            <img
+              class="img1"
+              src="../Images/workout/TRX/anastase-maragos-fG0p4Qh_aWI-unsplash.jpg"
+              alt=""
+            />
+            <img
+              class="img2"
+              src="../Images/workout/TRX/[Downloader.la]-638b84a15d817.jpg"
+              alt=""
+            />
+            <img
+              class="img3"
+              src="../Images/workout/TRX/full-body-image-athletic-bearded-tattooed-shaved-head-male-doing-trx-straps-exercises-gym-club.jpg"
+              alt=""
+            />
+            <img
+              class="img4"
+              src="../Images/workout/TRX/portrait-young-athletic-woman-sportswear-doing-exercise-training-legs-glutes-muscular-with-fitness-strapstrx-gym.jpg"
+              alt=""
+            />
+          </div>
+          <h3>Upcoming Sessions</h3>
+          <div class="sessions">
+            <div class="s1">
+              <span>Friday, Dec 9</span>
+              <div class="time">
+                <span>8:00 AM</span>
+                <span class="d">45 min</span>
+              </div>
+            </div>
+            <div class="s1">
+              <span>Monday, Dec 12</span>
+              <div class="time">
+                <span>8:00 AM</span>
+                <span class="d">45 min</span>
+              </div>
+            </div>
+            <div class="s1">
+              <span>Wednesday, Dec 14</span>
+              <div class="time">
+                <span>8:00 AM</span>
+                <span class="d">45 min</span>
+              </div>
+            </div>
+          </div>
+          <span
+            ><a href="#"><button class="btn-book">Book Now</button></a></span
+          >
+        </div>
+      </div>
+    </section>
+
+    <script src="../Js/workout.js"></script>
+  </body>
+</html>
